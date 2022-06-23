@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC
+    "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+    "https://checkstyle.org/dtds/configuration_1_2.dtd">
+<module name="Checker">
+    <module name="TreeWalker">
+        <!-- 代码缩进 -->
+        <module name="Indentation">
+        </module>  
+
+        <!-- 返回个数 -->
+        <module name="ReturnCount">
+            <property name="max" value="5"/>
+            <property name="format" value="^$"/>
+        </module>
+    </module>
+</module>
